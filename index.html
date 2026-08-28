@@ -13,16 +13,14 @@
         header { background:linear-gradient(135deg,#0f172a,#1e293b); color:#fff; padding:48px 20px; text-align:center; }
         header h1 { font-size:clamp(1.5rem,3.2vw,2.2rem); margin-bottom:8px; }
         header p { opacity:.9; }
-        .container { max-width:1120px; margin:0 auto; padding:36px 20px; }
-        .section-title { font-size:1.4rem; margin:28px 0 14px; text-align:center; }
+        .container { max-width:960px; margin:0 auto; padding:36px 20px; }
+        .section-title { font-size:1.2rem; margin:24px 0 12px; color:var(--muted); text-transform:uppercase; letter-spacing:0.08em; }
         .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; margin-top:14px; }
-        .item { background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; border:1px solid rgba(0,0,0,0.04); text-decoration:none; color:inherit; display:flex; flex-direction:column; }
+        .item { background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:18px; text-decoration:none; color:inherit; border:1px solid rgba(0,0,0,0.04); }
         .item:hover { transform:translateY(-3px); transition:transform .2s ease; }
-        .item img { width:100%; height:180px; object-fit:cover; border-radius:12px; margin-bottom:10px; background:#e5e7eb; }
         .item h3 { font-size:1rem; margin:6px 0; }
-        .item p { color:var(--muted); font-size:.9rem; margin-bottom:6px; }
-        .price { font-weight:700; color:#0f172a; margin:4px 0 10px; }
-        .btn { display:inline-block; background:var(--accent); color:#fff; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:600; text-align:center; margin-top:auto; }
+        .item p { color:var(--muted); font-size:.9rem; margin-bottom:10px; }
+        .btn { display:inline-block; background:var(--accent); color:#fff; padding:10px 14px; border-radius:10px; text-decoration:none; font-weight:600; }
         .social { display:flex; gap:12px; justify-content:center; margin-top:18px; }
         .social a { background:#fff; border-radius:12px; padding:10px 16px; text-decoration:none; color:var(--text); font-weight:600; box-shadow:var(--shadow); }
         footer { text-align:center; padding:24px 20px; font-size:.8rem; color:var(--muted); }
@@ -34,272 +32,42 @@
         <p>Amazon Affiliate Produkte — Getestet & empfohlen</p>
     </header>
     <main class="container">
-        <h2 class="section-title">Smart Home</h2>
+        <div class="section-title">Produktgruppen</div>
         <div class="grid">
-            <a class="item" href="https://www.amazon.de/s?k=smart+steckdose+wlan+alexa&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61FY6TnUkSL._AC_UL320_.jpg" alt="Smart Steckdose WLAN">
-                <h3>Smart Steckdose WLAN</h3>
-                <p>Alexa & Google kompatibel, ohne Bridge nutzbar.</p>
-                <div class="price">ca. 10–20 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
+            <a class="item" href="https://balu17051.github.io/andreasstehmann-niche/">
+                <h3>🏠 Haushalts-Helfer</h3>
+                <p>Küche, Deko & Wohnen</p>
+                <span class="btn">Zur Produktgruppe</span>
             </a>
-            <a class="item" href="https://www.amazon.de/s?k=led+streifen+wifi+rgb&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/81NqzOhkrCL._AC_SR160,134_CB1169409_QL70_.jpg" alt="LED-Streifen WiFi RGB">
-                <h3>LED-Streifen WiFi RGB</h3>
-                <p>App-Steuerung, Musiksync, für Wohnzimmer & Schlafzimmer.</p>
-                <div class="price">ca. 15–25 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
+            <a class="item" href="https://balu17051.github.io/andreasstehmann-smart-home/">
+                <h3>💡 Smart Home</h3>
+                <p>Gadgets für zu Hause</p>
+                <span class="btn">Zur Produktgruppe</span>
             </a>
-            <a class="item" href="https://www.amazon.de/s?k=bewegungsmelder+aussen+kabellos+ip65&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61pi4adCBGL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Bewegungsmelder Außen">
-                <h3>Bewegungsmelder Außen</h3>
-                <p>Kabellos, IP65, PIR-Sensor, 120° Erfassung.</p>
-                <div class="price">ca. 12–20 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
+            <a class="item" href="https://balu17051.github.io/andreasstehmann-wellness/">
+                <h3>🧘 Wellness & Selfcare</h3>
+                <p>Entspannung & Pflege</p>
+                <span class="btn">Zur Produktgruppe</span>
             </a>
-            <a class="item" href="https://www.amazon.de/s?k=smart+gluehbirne+e27+wlan&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71k8NFnnEtL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Smart Glühbirne E27">
-                <h3>Smart Glühbirne E27</h3>
-                <p>16 Mio. Farben, Alexa & Google, keine Bridge nötig.</p>
-                <div class="price">ca. 10–18 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
+            <a class="item" href="https://balu17051.github.io/andreasstehmann-diy/">
+                <h3>🎨 DIY & Basteln</h3>
+                <p>Materialien & Zubehör</p>
+                <span class="btn">Zur Produktgruppe</span>
             </a>
-            <a class="item" href="https://www.amazon.de/s?k=fensterkontakt+sensor+alarm+kabellos&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61DUCYw4XQL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Fensterkontakt Sensor">
-                <h3>Fensterkontakt Sensor</h3>
-                <p>Kabelloser WLAN-Sensor, Alarmfunktion, einfache Montage.</p>
-                <div class="price">ca. 15–25 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
+            <a class="item" href="https://balu17051.github.io/andreasstehmann-geschenke/">
+                <h3>🎁 Geschenkideen</h3>
+                <p>Für jeden Anlass</p>
+                <span class="btn">Zur Produktgruppe</span>
             </a>
-            <a class="item" href="https://www.amazon.de/s?k=wlan+raumthermostat+heizung+app&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61HYsRnybhL._AC_SR160,134_CB1169409_QL70_.jpg" alt="WLAN Raumthermostat">
-                <h3>WLAN Raumthermostat</h3>
-                <p>App-Steuerung, Touchdisplay, kompatibel mit Alexa & Google.</p>
-                <div class="price">ca. 25–45 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
+            <a class="item" href="https://balu17051.github.io/andreasstehmann-balkon-garten/">
+                <h3>🌱 Balkon & Garten</h3>
+                <p>Outdoor & Pflanzen</p>
+                <span class="btn">Zur Produktgruppe</span>
             </a>
-        </div>
-
-        <h2 class="section-title">Wellness & Selfcare</h2>
-        <div class="grid">
-            <a class="item" href="https://www.amazon.de/s?k=yoga+matte+gepolstert&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61iDWDnwdtL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Yoga Matte Gepolstert">
-                <h3>Yoga Matte Gepolstert</h3>
-                <p>Rutschfest, schweißresistent, 8 mm stark.</p>
-                <div class="price">ca. 15–25 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=gesichtssauna+mini&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/31cLGMzsykL._AC_UL320_.jpg" alt="Gesichtssauna Mini">
-                <h3>Gesichtssauna Mini</h3>
-                <p>Dampf in 30 Sekunden, für alle Hauttypen.</p>
-                <div class="price">ca. 20–35 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=massageball+set&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/91j7W480mFL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Massageball Set">
-                <h3>Massageball Set</h3>
-                <p>Faszienrolle, Triggerpunkt, 3 Größen.</p>
-                <div class="price">ca. 10–18 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=aroma+diffuser+ultraschall&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71TbXgJ+N3L._AC_SR160,134_CB1169409_QL70_.jpg" alt="Aroma Diffuser">
-                <h3>Aroma Diffuser</h3>
-                <p>Ultraschall, LED-Farben, timer, leise.</p>
-                <div class="price">ca. 12–22 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=badebomben+set&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71VhAmr0A6L._AC_SR160,134_CB1169409_QL70_.jpg" alt="Badebomben Set">
-                <h3>Badebomben Set</h3>
-                <p>6er Set, ätherische Öle, trocknet die Haut nicht aus.</p>
-                <div class="price">ca. 10–16 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-        </div>
-
-        <h2 class="section-title">DIY & Basteln</h2>
-        <div class="grid">
-            <a class="item" href="https://www.amazon.de/s?k=acrylfarbe+set+24+farben&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/81L662OFVOL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Acrylfarbe Set">
-                <h3>Acrylfarbe Set</h3>
-                <p>24 Farben, matt finish, hochpigmentiert.</p>
-                <div class="price">ca. 15–22 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=bastelkleber+transparent&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71mEgh9msgL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Bastelkleber">
-                <h3>Bastelkleber Transparent</h3>
-                <p>Schnell trocknend, säurefrei, für alle Materialien.</p>
-                <div class="price">ca. 5–10 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=schneidematte+a3+selbstheilend&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/91HSaP6yM5L._AC_SR160,134_CB1169409_QL70_.jpg" alt="Schneidematte A3">
-                <h3>Schneidematte A3</h3>
-                <p>Selbstheilend, cm-Raster, für Papier & Stoff.</p>
-                <div class="price">ca. 8–14 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=pinsel+set+12+stueck&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/81mtThz8RNL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Pinsel Set">
-                <h3>Pinsel Set 12-teilig</h3>
-                <p>Rund & flach, Synthetik, für Acryl & Öl.</p>
-                <div class="price">ca. 8–14 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=klebepistole+20w&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61qv8kTrK4L._AC_SR160,134_CB1169409_QL70_.jpg" alt="Klebepistole">
-                <h3>Klebepistole 20W</h3>
-                <p>Mit 20 Stäben, schnelle Aufheizzeit, sicher.</p>
-                <div class="price">ca. 8–14 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=skizzenbuch+a5+200+seiten&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71cxWeHxTbL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Skizzenbuch A5">
-                <h3>Skizzenbuch A5</h3>
-                <p>200 Seiten, 170 g/m², für Bleistift & Tusche.</p>
-                <div class="price">ca. 8–14 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-        </div>
-
-        <h2 class="section-title">Geschenkideen</h2>
-        <div class="grid">
-            <a class="item" href="https://www.amazon.de/s?k=kraeutergarten+set+3er&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/91N2XF4eKQL._AC_SR180,120_CB1169409_QL70_.jpg" alt="Kräutergarten Set">
-                <h3>Kräutergarten Set</h3>
-                <p>3er Set, selbstbewässernd, für die Fensterbank.</p>
-                <div class="price">ca. 12–20 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=kerzen+set+duft+4er&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61CRFJprIdL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Kerzen Set Duft">
-                <h3>Kerzen Set Duft</h3>
-                <p>4x125g, verschiedene Düfte, Sojawachs.</p>
-                <div class="price">ca. 12–20 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=kochloeffel+set+holz&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/51v52nzfRQL._AC_SR250,250_QL65_.jpg" alt="Kochlöffel Set Holz">
-                <h3>Kochlöffel Set Holz</h3>
-                <p>5-teilig, hitzebeständig, schonend für Pfannen.</p>
-                <div class="price">ca. 8–14 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=lesezeichen+magnetisch+set&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/41WlcOIZf8L._AC_SR250,250_QL65_.jpg" alt="Lesezeichen Magnetisch">
-                <h3>Lesezeichen Magnetisch</h3>
-                <p>Set mit 6 Stück, minimalistisch, rutschfest.</p>
-                <div class="price">ca. 6–12 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=socken+set+5+paar+baumwolle&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71HExmj8dmL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Socken Set 5 Paar">
-                <h3>Socken Set 5 Paar</h3>
-                <p>Baumwolle, atmungsaktiv, viele Farben.</p>
-                <div class="price">ca. 10–16 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=tasse+mit+spruch+keramik&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71HExmj8dmL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Tasse mit Spruch">
-                <h3>Tasse mit Spruch</h3>
-                <p>Keramik 350 ml, spülmaschinentauglich, Geschenkidee.</p>
-                <div class="price">ca. 8–14 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-        </div>
-
-        <h2 class="section-title">Balkon & Garten</h2>
-        <div class="grid">
-            <a class="item" href="https://www.amazon.de/s?k=pflanzentopf+set+balkon&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71s-aR66oWL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Pflanzentopf Set Balkon">
-                <h3>Pflanzentopf Set Balkon</h3>
-                <p>3 Größen, drainage, wetterfest.</p>
-                <div class="price">ca. 15–25 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=solar+led+kette+garten&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/91N2XF4eKQL._AC_SR180,120_CB1169409_QL70_.jpg" alt="Solar LED Kette">
-                <h3>Solar LED Kette</h3>
-                <p>10m, wasserdicht, automatisch ein bei Dunkelheit.</p>
-                <div class="price">ca. 12–22 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=outdoor+sitzkissen+balkon&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/51OV6SsK6LL._AC_SR250,250_QL65_.jpg" alt="Outdoor Sitzkissen">
-                <h3>Outdoor Sitzkissen</h3>
-                <p>Wasserabweisend, schnell trocknend, waschbar.</p>
-                <div class="price">ca. 10–18 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=kraeutersaeule+balkon&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71AJukw-z5L._AC_SR160,134_CB1169409_QL70_.jpg" alt="Kräutersäule Balkon">
-                <h3>Kräutersäule Balkon</h3>
-                <p>4–6 Fächer, standfest, outdoor-tauglich.</p>
-                <div class="price">ca. 20–30 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=giesskanne+metall+design&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61fM62RyTFL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Gießkanne Metall">
-                <h3>Gießkanne Metall</h3>
-                <p>1,5 l, rostfrei, langhalterig, Design.</p>
-                <div class="price">ca. 12–20 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=pflanzensack+set+7+taschen&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/61LFHOhGS8L._AC_SR160,134_CB1169409_QL70_.jpg" alt="Pflanzensack Set">
-                <h3>Pflanzensack Set</h3>
-                <p>4–7 Taschen, UV-beständig, einfache Montage.</p>
-                <div class="price">ca. 10–18 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-        </div>
-
-        <h2 class="section-title">Küchenorganisation</h2>
-        <div class="grid">
-            <a class="item" href="https://www.amazon.de/s?k=schubladen+organizer+erweiterbar&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/81GivUi95YL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Schubladen Organizer">
-                <h3>Schubladen Organizer</h3>
-                <p>Erweiterbar, rutschfest, spülmaschinentauglich.</p>
-                <div class="price">ca. 8–18 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=gewuerzregal+drehbar&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/81lRdkZzKmL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Gewürzregal Drehbar">
-                <h3>Gewürzregal Drehbar</h3>
-                <p>360°, für 18–24 Gläser, kein Bohren.</p>
-                <div class="price">ca. 10–18 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=vorratsdosen+glas+luftdicht&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71-cUUSPeML._AC_SR160,134_CB1169409_QL70_.jpg" alt="Vorratsdosen Glas">
-                <h3>Vorratsdosen Glas</h3>
-                <p>Luftdicht, beschriftbar, stapelbar.</p>
-                <div class="price">ca. 15–25 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=tassenhalter+unter+schrank&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/91Lps9eeadL._AC_SR160,134_CB1169409_QL70_.jpg" alt="Tassenhalter Unter Schrank">
-                <h3>Tassenhalter Unter Schrank</h3>
-                <p>Für 4–6 Tassen, kein Bohren, rutschfest.</p>
-                <div class="price">ca. 8–16 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=spuelmatte+textil+waschbar&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/517xl5I2mYL._AC_SR250,250_.jpg" alt="Spühlmatte Textil">
-                <h3>Spühlmatte Textil</h3>
-                <p>Saugfähig, waschbar, rutschfest.</p>
-                <div class="price">ca. 8–14 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
-            </a>
-            <a class="item" href="https://www.amazon.de/s?k=flaschenregal+wand+metall&tag=balu17051-21" target="_blank" rel="nofollow noopener">
-                <img src="https://m.media-amazon.com/images/I/71iKmuN6H-L._AC_SR160,134_CB1169409_QL70_.jpg" alt="Flaschenregal Wand">
-                <h3>Flaschenregal Wand</h3>
-                <p>Metall, lackiert, für Wein & Getränke.</p>
-                <div class="price">ca. 12–22 €</div>
-                <span class="btn">Jetzt bei Amazon</span>
+            <a class="item" href="https://balu17051.github.io/andreasstehmann-kuechenorganisation/">
+                <h3>🍳 Küchenorganisation</h3>
+                <p>Systematisch geordnet</p>
+                <span class="btn">Zur Produktgruppe</span>
             </a>
         </div>
 
